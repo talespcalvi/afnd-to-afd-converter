@@ -49,7 +49,7 @@
 ## Saída
 ##### 010 aceito
 ##### 111 aceito
-##### 00111 n�o aceito
+##### 00111 não aceito
 ##### 0111 aceito
 ##### 101011 aceito
 ##### 101 aceito
