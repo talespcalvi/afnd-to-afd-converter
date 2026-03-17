@@ -1,7 +1,7 @@
 # Conversor de AFND (com movimentos vazios) para AFD
 
 ## AFND
-![AFND](https://github.com/talespcalvi/afnd-to-afd-converter/blob/main/parte%201/afnd.jpg)
+![AFND](https://github.com/talespcalvi/afnd-to-afd-converter/blob/main/afnd.jpg)
 
 ### Entrada utilizada
 ##### A B C D
@@ -19,7 +19,7 @@
 
 
 ## AFD
-![AFD](https://github.com/talespcalvi/afnd-to-afd-converter/blob/main/parte%201/afd.jpg)
+![AFD](https://github.com/talespcalvi/afnd-to-afd-converter/blob/main/afd.jpg)
 
 ### Saída Gerada
 ##### Q0 Q1 Q2 Q3
