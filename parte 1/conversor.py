@@ -46,7 +46,7 @@ def mover(estados, simbolo, transicoes):
 
 def converter_para_afd(estado_inicial_afnd, estados_finais_afnd, transicoes_afnd, alfabeto):
     fecho_inicial = e_closure([estado_inicial_afnd], transicoes_afnd)
-    estados_afd = {fecho_inicial: "S0"}
+    estados_afd = {fecho_inicial: "Q0"}
     fila = collections.deque([fecho_inicial])
     transicoes_afd = []
     finais_afd = set()
@@ -65,13 +65,13 @@ def converter_para_afd(estado_inicial_afnd, estados_finais_afnd, transicoes_afnd
             if not U: continue
             
             if U not in estados_afd:
-                estados_afd[U] = f"S{contador}"
+                estados_afd[U] = f"Q{contador}"
                 contador += 1
                 fila.append(U)
             
             transicoes_afd.append(f"{nome_origem} {simbolo} {estados_afd[U]}")
             
-    return estados_afd.values(), "S0", finais_afd, transicoes_afd
+    return estados_afd.values(), "Q0", finais_afd, transicoes_afd
 
 def salvar_afd(nome_arquivo, estados, inicial, finais, transicoes):
     with open(nome_arquivo, 'w') as f:
