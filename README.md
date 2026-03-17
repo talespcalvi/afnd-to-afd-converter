@@ -32,3 +32,26 @@
 ##### Q2 0 Q1
 ##### Q2 1 Q2
 ##### Q3 0 Q3
+
+
+# Checagem se a palavra é reconhecida ou não pelo AFD
+
+## Entrada
+##### 010
+##### 111
+##### 00111
+##### 0111
+##### 101011
+##### 101
+##### 101
+##### 11
+
+## Saída
+##### 010 aceito
+##### 111 aceito
+##### 00111 n�o aceito
+##### 0111 aceito
+##### 101011 aceito
+##### 101 aceito
+##### 101 aceito
+##### 11 aceito
